@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Librery Books</title>
+</head>
+<body>
+    <header> 
+        <h1><img src="/img/icono.png" alt="Icono de la Librery"></h1>
+        <nav><ul>
+                <li><a href="">home</a></li>
+                <li><a href="">products</a></li>
+                <li><a href="">contact  </a></li>
+        </ul></nav>
+    </header>
+    <main>
+        <img src="img/benner.jpg" alt="benner" class="banner">
+        <section class="productos">
+            <div class="producto">
+                <h2>Libro de Matematicas</h2>
+                <img src="img/producto 2.jpg" alt="">
+                <p>Libro de Matematicas para nivel Primario 1</p>
+            </div>
+            <div class="producto">
+                <h2>Libro de Harry Potter</h2>
+                <img src="img/producto 1.jpg" alt="">
+                <p>Libro de historia de la novela de Harry Potter</p>
+            </div>
+            <div class="producto">
+                <h2>Libro de Historia Segundo Grado</h2>
+                <img src="img/producto 3.jpg" alt="">
+                <p>Libro de Historia Nivel Secundario/Primario N1</p>
+            </div>
+        </section>
+        <section class="formulario">
+            <form action="">
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="imput-padron"
+                required>
+
+                <label for="correoelectronico">Correo Electronico</label>
+                <input type="email" id="nombreapellido" class="imput-padron"
+                required placeholder="email@dominio.com">
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="nombreapellido" class="imput-padron"
+                required placeholder="xxxx xxxxx">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje"
+                class="input-padron" placeholder=" deje aqui su mensaje"></textarea>
+
+                <fieldset>
+                    <legend>¿Como le gustaria que los contactemos?</legend>
+                    
+                    <label for="radio-mail"><input type="radio" name="contacto" value="email" id="radio-email">email</label>
+
+                    <label for="radio-Telefono"><input type="radio" name="contacto" value="telefono" id="radio-Telefono">telefono</label>
+                    
+                    <label for="radio-Whatsapp"><input type="radio" name="contacto" value="Whatsapp" id="radio-email">Whatsapp</label>
+
+
+                <fieldset>
+                    <legend>¿En que horario prefiere ser contactado?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                        </select>
+                </fieldset>
+                <label><input type="checkbox" class="checkbox" checked> Le Gustaria Recibir Novedades?</label>
+
+                <input type="submit" value="Enviar" class="enviar">
+             
+
+            </form>
+
+        </section>
+        
+    </main>
+    <footer>
+        <img src="/img/icono.png" alt="logo">
+        <p> Derechos Reservados Estrictamente - Ricardo Martinez - Until 2023</p>
+    </footer>
+</body>
+</html>
